@@ -19,6 +19,7 @@
     "prepublish": "rake build"
   },
   "dependencies": {
+    "cson-parser": "~1.0.8",
     "jsck": "~0.2.1"
   },
   "devDependencies": {

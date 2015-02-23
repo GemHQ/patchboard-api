@@ -1,7 +1,7 @@
 path = require("path")
 fs = require("fs")
 
-CSON = require "c50n"
+CSON = require "cson-parser"
 
 validate = require("./validate")
 
@@ -38,7 +38,7 @@ example =
       type: "array"
       items: {$ref: "#thing"}
 
-    
+
 module.exports =
 
   validate: validate
@@ -69,6 +69,3 @@ module.exports =
       console.log string
     else
       console.log "Unsupported type: #{type}"
-
-
-

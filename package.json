@@ -19,12 +19,9 @@
     "prepublish": "rake build"
   },
   "dependencies": {
-    "c50n": "0.3.1",
-    "jsck": "~0.1.4"
+    "jsck": "~0.2.1"
   },
   "devDependencies": {
     "testify": "0.2.9"
   }
 }
-
-
